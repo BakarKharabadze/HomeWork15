@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0635472BCC5156006A0164 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0635462BCC5156006A0164 /* Models.swift */; };
+		FB0635492BCC5B36006A0164 /* NewCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0635482BCC5B36006A0164 /* NewCardViewController.swift */; };
+		FB3EBA102BCC0600005F4965 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3EBA0F2BCC0600005F4965 /* MainPageViewController.swift */; };
+		FB3EBA142BCC1611005F4965 /* NewCardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3EBA132BCC1611005F4965 /* NewCardViewCell.swift */; };
 		FBC04C962BCBEDDB00150FF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC04C952BCBEDDB00150FF3 /* AppDelegate.swift */; };
 		FBC04C982BCBEDDB00150FF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC04C972BCBEDDB00150FF3 /* SceneDelegate.swift */; };
-		FBC04C9A2BCBEDDB00150FF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC04C992BCBEDDB00150FF3 /* ViewController.swift */; };
-		FBC04C9D2BCBEDDB00150FF3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FBC04C9C2BCBEDDB00150FF3 /* Base */; };
+		FBC04C9A2BCBEDDB00150FF3 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC04C992BCBEDDB00150FF3 /* OnBoardingViewController.swift */; };
 		FBC04C9F2BCBEDDD00150FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC04C9E2BCBEDDD00150FF3 /* Assets.xcassets */; };
 		FBC04CA22BCBEDDD00150FF3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FBC04CA12BCBEDDD00150FF3 /* Base */; };
+		FBEB5C772BCD888100C8AA18 /* FiraGO-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEB5C692BCD888100C8AA18 /* FiraGO-LightItalic.ttf */; };
+		FBEB5C782BCD888100C8AA18 /* FiraGO-HairItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEB5C6A2BCD888100C8AA18 /* FiraGO-HairItalic.ttf */; };
+		FBEB5C792BCD888100C8AA18 /* FiraGO-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEB5C6B2BCD888100C8AA18 /* FiraGO-MediumItalic.ttf */; };
+		FBEB5C7A2BCD888100C8AA18 /* FiraGO-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEB5C6C2BCD888100C8AA18 /* FiraGO-ThinItalic.ttf */; };
+		FBEB5C7B2BCD888100C8AA18 /* FiraGO-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEB5C6D2BCD888100C8AA18 /* FiraGO-HeavyItalic.ttf */; };
+		FBEB5C7C2BCD888100C8AA18 /* FiraGO-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEB5C6E2BCD888100C8AA18 /* FiraGO-BoldItalic.ttf */; };
+		FBEB5C7D2BCD888100C8AA18 /* FiraGO-BookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEB5C6F2BCD888100C8AA18 /* FiraGO-BookItalic.ttf */; };
+		FBEB5C7E2BCD888100C8AA18 /* FiraGO-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEB5C702BCD888100C8AA18 /* FiraGO-ExtraBoldItalic.ttf */; };
+		FBEB5C7F2BCD888100C8AA18 /* FiraGO-EightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEB5C712BCD888100C8AA18 /* FiraGO-EightItalic.ttf */; };
+		FBEB5C802BCD888100C8AA18 /* FiraGO-FourItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEB5C722BCD888100C8AA18 /* FiraGO-FourItalic.ttf */; };
+		FBEB5C812BCD888100C8AA18 /* FiraGO-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEB5C732BCD888100C8AA18 /* FiraGO-ExtraLightItalic.ttf */; };
+		FBEB5C822BCD888100C8AA18 /* FiraGO-UltraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEB5C742BCD888100C8AA18 /* FiraGO-UltraLightItalic.ttf */; };
+		FBEB5C832BCD888100C8AA18 /* FiraGO-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEB5C752BCD888100C8AA18 /* FiraGO-SemiBoldItalic.ttf */; };
+		FBEB5C842BCD888100C8AA18 /* FiraGO-TwoItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEB5C762BCD888100C8AA18 /* FiraGO-TwoItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB0635462BCC5156006A0164 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		FB0635482BCC5B36006A0164 /* NewCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCardViewController.swift; sourceTree = "<group>"; };
+		FB3EBA0F2BCC0600005F4965 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		FB3EBA132BCC1611005F4965 /* NewCardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCardViewCell.swift; sourceTree = "<group>"; };
 		FBC04C922BCBEDDB00150FF3 /* Collections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC04C952BCBEDDB00150FF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC04C972BCBEDDB00150FF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FBC04C992BCBEDDB00150FF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FBC04C9C2BCBEDDB00150FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBC04C992BCBEDDB00150FF3 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		FBC04C9E2BCBEDDD00150FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBC04CA12BCBEDDD00150FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBC04CA32BCBEDDD00150FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEB5C692BCD888100C8AA18 /* FiraGO-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-LightItalic.ttf"; sourceTree = "<group>"; };
+		FBEB5C6A2BCD888100C8AA18 /* FiraGO-HairItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-HairItalic.ttf"; sourceTree = "<group>"; };
+		FBEB5C6B2BCD888100C8AA18 /* FiraGO-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FBEB5C6C2BCD888100C8AA18 /* FiraGO-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FBEB5C6D2BCD888100C8AA18 /* FiraGO-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		FBEB5C6E2BCD888100C8AA18 /* FiraGO-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FBEB5C6F2BCD888100C8AA18 /* FiraGO-BookItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-BookItalic.ttf"; sourceTree = "<group>"; };
+		FBEB5C702BCD888100C8AA18 /* FiraGO-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FBEB5C712BCD888100C8AA18 /* FiraGO-EightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-EightItalic.ttf"; sourceTree = "<group>"; };
+		FBEB5C722BCD888100C8AA18 /* FiraGO-FourItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-FourItalic.ttf"; sourceTree = "<group>"; };
+		FBEB5C732BCD888100C8AA18 /* FiraGO-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		FBEB5C742BCD888100C8AA18 /* FiraGO-UltraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-UltraLightItalic.ttf"; sourceTree = "<group>"; };
+		FBEB5C752BCD888100C8AA18 /* FiraGO-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FBEB5C762BCD888100C8AA18 /* FiraGO-TwoItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-TwoItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +90,40 @@
 		FBC04C942BCBEDDB00150FF3 /* Collections */ = {
 			isa = PBXGroup;
 			children = (
+				FBEB5C662BCD874C00C8AA18 /* Font */,
 				FBC04C952BCBEDDB00150FF3 /* AppDelegate.swift */,
 				FBC04C972BCBEDDB00150FF3 /* SceneDelegate.swift */,
-				FBC04C992BCBEDDB00150FF3 /* ViewController.swift */,
-				FBC04C9B2BCBEDDB00150FF3 /* Main.storyboard */,
+				FBC04C992BCBEDDB00150FF3 /* OnBoardingViewController.swift */,
+				FB3EBA0F2BCC0600005F4965 /* MainPageViewController.swift */,
+				FB0635482BCC5B36006A0164 /* NewCardViewController.swift */,
+				FB3EBA132BCC1611005F4965 /* NewCardViewCell.swift */,
+				FB0635462BCC5156006A0164 /* Models.swift */,
 				FBC04C9E2BCBEDDD00150FF3 /* Assets.xcassets */,
 				FBC04CA02BCBEDDD00150FF3 /* LaunchScreen.storyboard */,
 				FBC04CA32BCBEDDD00150FF3 /* Info.plist */,
 			);
 			path = Collections;
+			sourceTree = "<group>";
+		};
+		FBEB5C662BCD874C00C8AA18 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FBEB5C6E2BCD888100C8AA18 /* FiraGO-BoldItalic.ttf */,
+				FBEB5C6F2BCD888100C8AA18 /* FiraGO-BookItalic.ttf */,
+				FBEB5C712BCD888100C8AA18 /* FiraGO-EightItalic.ttf */,
+				FBEB5C702BCD888100C8AA18 /* FiraGO-ExtraBoldItalic.ttf */,
+				FBEB5C732BCD888100C8AA18 /* FiraGO-ExtraLightItalic.ttf */,
+				FBEB5C722BCD888100C8AA18 /* FiraGO-FourItalic.ttf */,
+				FBEB5C6A2BCD888100C8AA18 /* FiraGO-HairItalic.ttf */,
+				FBEB5C6D2BCD888100C8AA18 /* FiraGO-HeavyItalic.ttf */,
+				FBEB5C692BCD888100C8AA18 /* FiraGO-LightItalic.ttf */,
+				FBEB5C6B2BCD888100C8AA18 /* FiraGO-MediumItalic.ttf */,
+				FBEB5C752BCD888100C8AA18 /* FiraGO-SemiBoldItalic.ttf */,
+				FBEB5C6C2BCD888100C8AA18 /* FiraGO-ThinItalic.ttf */,
+				FBEB5C762BCD888100C8AA18 /* FiraGO-TwoItalic.ttf */,
+				FBEB5C742BCD888100C8AA18 /* FiraGO-UltraLightItalic.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +184,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBEB5C782BCD888100C8AA18 /* FiraGO-HairItalic.ttf in Resources */,
 				FBC04C9F2BCBEDDD00150FF3 /* Assets.xcassets in Resources */,
+				FBEB5C832BCD888100C8AA18 /* FiraGO-SemiBoldItalic.ttf in Resources */,
+				FBEB5C7B2BCD888100C8AA18 /* FiraGO-HeavyItalic.ttf in Resources */,
+				FBEB5C7D2BCD888100C8AA18 /* FiraGO-BookItalic.ttf in Resources */,
+				FBEB5C842BCD888100C8AA18 /* FiraGO-TwoItalic.ttf in Resources */,
+				FBEB5C822BCD888100C8AA18 /* FiraGO-UltraLightItalic.ttf in Resources */,
+				FBEB5C802BCD888100C8AA18 /* FiraGO-FourItalic.ttf in Resources */,
+				FBEB5C772BCD888100C8AA18 /* FiraGO-LightItalic.ttf in Resources */,
+				FBEB5C792BCD888100C8AA18 /* FiraGO-MediumItalic.ttf in Resources */,
+				FBEB5C7C2BCD888100C8AA18 /* FiraGO-BoldItalic.ttf in Resources */,
 				FBC04CA22BCBEDDD00150FF3 /* Base in Resources */,
-				FBC04C9D2BCBEDDB00150FF3 /* Base in Resources */,
+				FBEB5C7E2BCD888100C8AA18 /* FiraGO-ExtraBoldItalic.ttf in Resources */,
+				FBEB5C812BCD888100C8AA18 /* FiraGO-ExtraLightItalic.ttf in Resources */,
+				FBEB5C7A2BCD888100C8AA18 /* FiraGO-ThinItalic.ttf in Resources */,
+				FBEB5C7F2BCD888100C8AA18 /* FiraGO-EightItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +210,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC04C9A2BCBEDDB00150FF3 /* ViewController.swift in Sources */,
+				FB3EBA102BCC0600005F4965 /* MainPageViewController.swift in Sources */,
+				FB0635472BCC5156006A0164 /* Models.swift in Sources */,
+				FB0635492BCC5B36006A0164 /* NewCardViewController.swift in Sources */,
+				FBC04C9A2BCBEDDB00150FF3 /* OnBoardingViewController.swift in Sources */,
 				FBC04C962BCBEDDB00150FF3 /* AppDelegate.swift in Sources */,
+				FB3EBA142BCC1611005F4965 /* NewCardViewCell.swift in Sources */,
 				FBC04C982BCBEDDB00150FF3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +223,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FBC04C9B2BCBEDDB00150FF3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBC04C9C2BCBEDDB00150FF3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FBC04CA02BCBEDDD00150FF3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +364,6 @@
 				INFOPLIST_FILE = Collections/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,7 +390,6 @@
 				INFOPLIST_FILE = Collections/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
